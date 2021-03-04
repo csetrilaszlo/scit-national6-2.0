@@ -42,6 +42,7 @@ function renderArticle(articleData){
     article.appendChild(articleContent);
     article.appendChild(removeButton);
 
+        console.log('remove article');
     removeButton.addEventListener('click', function(){
         article.remove();
     })
